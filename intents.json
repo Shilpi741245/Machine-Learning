@@ -1,0 +1,308 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns":[
+              "Hi",
+              "Hey",
+              "How are you",
+              "Hello dear"
+          ],
+          "responses":[
+              "Hey:",
+              "Hello,thanks for visiting CliniOps",
+              "Hello,thanks for visiting CliniOps",
+              "Hello, What can I do for you?",
+              "Hey, What can I do for you?",
+              "Hi, how can I help you?"
+          ]
+      },
+      {
+          "tag":"bye",
+          "patterns":[
+              "Bye",
+              "See you later"
+          ],
+           "responses":[
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye come back soon"
+          ]
+      },
+      {
+          "tag":"Thanks",
+           "patterns":[
+              "Thanks",
+              "Thank You"
+          ],
+           "responses":[
+              "Happy to help",
+              "Any time."
+          ]
+      },
+      {
+          
+          "tag":"Products",
+           "patterns":[
+              "What kind of product do you have?",
+              "Which product do you have?",
+              "What kind of products cliniops used?"
+          ],
+           "responses":[
+              "CliniOps Conduct, CliniOps Connect and CliniOps Edge."
+          ]
+      },
+      { 
+        "tag":"Conduct",
+         "patterns":[
+            "What is CliniOps Conduct?",
+            "Why we used CliniOps Conduct?",
+            "Why we used Conduct?",
+            "What is Conduct?",
+            "How Conduct works?"
+        ],
+         "responses":[
+            "It is a platform that unifies clinical operations, regulatory filing processes, and clinical data management. For more information, click:<a href='www.cliniops.com/products/cliniops-conduct/'>www.cliniops.com/products/cliniops-conduct/</a>",
+            "CliniOps Conduct platform simplifies clinical data administration, operations, and regulatory reporting by offering central and remote monitoring, dashboards, and KPIs for decentralised, virtual, or hybrid trials. For more information, click:<a href='www.cliniops.com/products/cliniops-conduct/'>www.cliniops.com/products/cliniops-conduct/</a>"
+        ]
+        },
+        {
+          "tag":"EDC",
+           "patterns":[
+              "What is EDC module?",
+              "Why we used EDC module?",
+              "Why we EDC module?",
+              "What is EDC?"
+          ],
+           "responses":[
+              "The EDC module aids clinical data management efforts by allowing data managers and monitors to perform real-time queries, collaborate with sites, and export data in a variety of formats. For more information, click:<a href='www.cliniops.com/products/cliniops-conduct/'>www.cliniops.com/products/cliniops-conduct/</a>"
+          ]
+         },
+         {
+          "tag":"Coder",
+          "patterns":[
+             "What is Coder module?",
+              "Why we used Coder module?",
+              "Why we Coder module?",
+              "What is Coder?"
+          ],
+          "responses":[
+              "The CliniOps Coder module provides auto-coding functionality with speed and accuracy to support coding for clinical trials. For more information, click:<a href='www.cliniops.com/products/cliniops-conduct/'>www.cliniops.com/products/cliniops-conduct/</a>"
+          ]
+          },
+          {
+            "tag":"IRT",
+            "patterns":[
+              "What is IRT module?",
+              "Why we used IRT module?",
+              "Why we IRT module?",
+              "What is IRT?"
+              ],
+            "responses":[
+              "Interactive Response Technology.For more information, click:<a href='www.cliniops.com/products/cliniops-conduct/'>www.cliniops.com/products/cliniops-conduct/</a>",
+              "CROs can use IRT module to monitor IP inventory.For more information, click:<a href='www.cliniops.com/products/cliniops-conduct/'>www.cliniops.com/products/cliniops-conduct/</a>"
+          ]
+          },
+          {
+           "tag":"eTMF",
+           "patterns":[
+              "What is eTMF module?",
+              "Why we used eTMF module?",
+              "Why we eTMF module?",
+              "What is eTMF?"
+          ],
+          "responses":[
+              "CliniOps eTMF module provides rich trial experience and End to End Audit Trails to meet inspection and compliance requirements.For more information, click:<a href='www.cliniops.com/products/cliniops-conduct/'>www.cliniops.com/products/cliniops-conduct/</a>"
+          ]
+          },
+          {
+            "tag":"CTMS",
+            "patterns":[
+              "What is CTMS module?",
+              "Why we used CTMS module?",
+              "Why we CTMS module?",
+              "What is CTMS?"
+              ],
+            "responses":[
+              "CliniOps CTMS module provides comprehensive management of trial planning, document management, country and site progress, monitoring activities, and reporting capabilities.For more information, click:<a href='www.cliniops.com/products/cliniops-conduct/'>www.cliniops.com/products/cliniops-conduct/</a>"
+          ]
+          },
+          {
+            "tag":"Connect",
+            "patterns":[
+              "What is CliniOps Connect?",
+              "Why we used CliniOps Connect?",
+              "Why we used Connect?",
+              "What is Connect?",
+              "What exactly is connect?",
+              "How Connect works?"
+          ],
+            "responses":[
+              "CliniOps Connect is a patient-centered clinical trial that allows for seamless telemedicine participation, enhancing engagement, retention, and protocol adherence through reminders, notifications, and instructional resources. For more information, click:<a href='www.cliniops.com/products/cliniops-connect/'>www.cliniops.com/products/cliniops-connect/</a>"
+          ]
+          },
+          {
+            "tag":"Telemedicine",
+            "patterns":[
+              "What is Telemedicine?",
+              "Why we used Telemedicine?",
+              "Why we used Telemedicine?",
+              "What is Telemedicine?",
+              "What exactly is Telemedicine?"
+          ],
+          "responses":[
+              "Telemedicine module allows patient to communicate with physician/nurse from home, improving patient retention, engagement, and procedure adherence. For more information, click:<a href='www.cliniops.com/products/cliniops-connect/'>www.cliniops.com/products/cliniops-connect/</a>"
+          ]
+          },
+          {
+          "tag":"eConsent",
+           "patterns":[
+              "What is eConsent?",
+              "Why we used eConsent?",
+              "Why we used eConsent?",
+              "What is eConsent?",
+              "What exactly is eConsent?"
+          ],
+           "responses":[
+              "The CliniOps eConsent module guides patients through the consent process to make informed decisions about enrolling in studies. For more information, click:<a href='www.cliniops.com/products/cliniops-connect/'>www.cliniops.com/products/cliniops-connect/</a>"
+          ]
+          },
+          {
+            "tag":"eCOA/QoL",
+            "patterns":[
+              "What is eCOA?",
+              "Why we used eCOA?",
+              "Why we used QoL?",
+              "What is  Quality of Life?",
+              "What exactly is  Quality of Life?"
+          ],
+          "responses":[
+              "It allows patients to report clinical outcome data remotely and more frequently, and supports automated alerts and notifications to both patients and sites. For more information, click:<a href='www.cliniops.com/products/cliniops-connect/'>www.cliniops.com/products/cliniops-connect/</a>"
+          ]
+          },
+          {
+            "tag":"ePRO/eDiary",
+            "patterns":[
+              "What is ePRO?",
+              "Why we used ePRO?",
+              "Why we used eDiary?",
+              "What is  eDiary?",
+              "What exactly is ePRO?"
+          ],
+          "responses":[
+              "CliniOps ePRO module increases patient retention and protocol adherence by allowing remote data collection and automated alerts and notifications. For more information, click:<a href='www.cliniops.com/products/cliniops-connect/'>www.cliniops.com/products/cliniops-connect/</a>"
+          ]
+          },
+          {
+            "tag":"Edge",
+            "patterns":[
+              "What is CliniOps Edge?",
+              "Why we used CliniOps Edge?",
+              "Why we used Edge?",
+              "What is Edge?",
+              "How Edge works?",
+              "What exactly is Edge?"
+          ],
+          "responses":[
+              "It is a application captures high-quality data offline on mobile devices. For more information, click:<a href='www.cliniops.com/products/cliniops-edge/'>www.cliniops.com/products/cliniops-edge/</a>"
+          ]
+          },
+          {
+            "tag":"eIRT",
+            "patterns":[
+              "What is eIRT",
+              "Why we used eIRT?",
+              "Why we used Electronic Interactive Response Technology?",
+              "How eIRT works?",
+              "What exactly is eIRT?"
+          ],
+          "responses":[
+              "It is Electronic Interactive Response Technology. For more information, click:<a href='www.cliniops.com/products/cliniops-edge/'>www.cliniops.com/products/cliniops-edge/</a>",
+              "CliniOps eIRT module supports patient randomization for blinded studies."
+          ]
+          },
+          {
+            "tag":"EHR",
+            "patterns":[
+              "What is EHR",
+              "Why we used EHR?",
+              "Why we used EHR?",
+              "How EHR works?",
+              "What exactly is Electronic Health Records?"
+          ],
+          "responses":[
+              "Electronic Health Records. For more information, click:<a href='www.cliniops.com/products/cliniops-edge/'>www.cliniops.com/products/cliniops-edge/</a>",
+              "CliniOps provides access to over 450 sites with integrated EHR to EDC data, SMART on FHIR standards, and GCP-compliant processes."
+          ]
+          },
+          {
+            "tag":"eSource",
+            "patterns":[
+              "What is eSource?",
+              "Why we used eSource?",
+              "How eSource works?",
+              "What exactly is eSource?"
+          ],
+           "responses":[
+              "eSource solution collects data at sites, tablets, and offline. For more information, click:<a href='www.cliniops.com/products/cliniops-edge/'>www.cliniops.com/products/cliniops-edge/</a>"
+          ]
+          },
+          {
+            "tag":"Services",
+            "patterns":[
+              "What kinds of services cliniops provides?",
+              "What are the different services you have?",
+              "What are the many services you provide?"
+          ],
+           "responses":[
+              "Study Setup, Clinical Data Management and Biostatistics & Statistical Programming."
+          ]
+          },
+          {
+            "tag":"Study Setup",
+            "patterns":[
+              "What is Study Setup?",
+              "Why we used Study Setup?",
+              "How Study Setup works?",
+              "What exactly is Study Setup?"
+          ],
+           "responses":[
+              "It used for streamline trial setup. For more information, click:<a href='www.cliniops.com/services/study-setup/'>www.cliniops.com/services/study-setup/</a>",
+              "provide a comprehensive study setup team with subject-matter experts, timely build cycles, early review phases, testing opportunities, and a rigorous quality assurance and clinical review cycle.For more information, click:<a href='www.cliniops.com/services/study-setup/'>www.cliniops.com/services/study-setup/</a>"
+
+          ]
+          },
+          {
+            "tag":"CDM/Clinical Data Management",
+            "patterns":[
+              "What is Clinical Data Management?",
+              "Why we used Clinical Data Management?",
+              "How Study Clinical Data Management?",
+              "What exactly is Clinical Data Management?",
+              "What is CDM?",
+              "Why we used CDM",
+              "How Study CDM?",
+              "What exactly is CDM?"
+          ],
+          "responses":[
+              "It used to provide error-free, valid and statistically sound data for analysis. For more information, click:<a href='www.cliniops.com/services/clinical-data-management/'>www.cliniops.com/services/clinical-data-management/</a>",
+              "It helps to  manage your data, allowing you to focus on running the trial efficiently and stay in control of your data..For more information, click:<a href='www.cliniops.com/services/clinical-data-management/'>www.cliniops.com/services/clinical-data-management/</a>"
+
+          ]
+          },
+          {
+            "tag":"Biostatistics & Statistical Programming",
+            "patterns":[
+              "What is Biostatistics & Statistical Programming?",
+              "Why we used Biostatistics & Statistical Programming?",
+              "How Study Biostatistics & Statistical Programming?",
+              "What exactly is Biostatistics & SP?",
+              "What exactly is BSP?"
+          ],
+           "responses":[
+              "Trial Design, Randomization, Statistical Analysis Plan, Statistical Programming, Tables, Listings, and Figures (TLFs), and Clinical Study Report (CSR) are all examples of biostatistics services. For more information, click:<a href='www.cliniops.com/services/biostatistics-programming/'>www.cliniops.com/services/biostatistics-programming/</a>",
+              "Biostatistics services include Trial Design, Randomization, Statistical Analysis Plan, Statistical Programming, Tables, Listings, and Figures (TLFs), and Clinical Study Report (CSR).For more information, click:<a href='www.cliniops.com/services/biostatistics-programming/'>www.cliniops.com/services/biostatistics-programming/</a>"
+          ]
+          }
+  ]
+}
